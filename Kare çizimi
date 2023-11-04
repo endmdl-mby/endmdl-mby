@@ -1,0 +1,23 @@
+import turtle
+
+uzunluk = int(input("Çizmek istediğiniz karenin bir kenar uzunluğunu yazınız: "))
+
+kenar = int(input("Kenar Sayısını giriniz: "))
+
+donus = int(input("Dönme AÇısını Giriniz: "))
+
+def polygon(kare,uzunluk,donus,kenar):
+
+    for i in range(kenar):
+
+        kare.fd(uzunluk)
+
+        kare.lt(donus)
+
+
+
+module = turtle.Turtle()
+
+polygon(module,uzunluk,donus,kenar)
+
+turtle.mainloop()
