@@ -1,0 +1,13 @@
+import turtle
+
+dairecizimi = turtle.Turtle()
+
+yaricap = int(input("Çizmek İstediğiniz Dairenin Yarıçapını Giriniz: "))
+
+def daire(dairecizimi, yaricap,):
+
+        dairecizimi.circle(yaricap)
+
+daire(dairecizimi,yaricap)
+
+turtle.mainloop()
